@@ -1,0 +1,18 @@
+CustomFNN(
+  (main_modules): ModuleDict(
+    (lin0): Linear(in_features=72, out_features=16, bias=True)
+    (lin_act0): SiLU()
+    (dropout0): Dropout(p=0.64, inplace=False)
+    (lin1): Linear(in_features=16, out_features=1024, bias=True)
+    (lin_act1): SiLU()
+    (dropout1): Dropout(p=0.02, inplace=False)
+    (lin2): Linear(in_features=1024, out_features=128, bias=True)
+    (lin_act2): SiLU()
+    (dropout2): Dropout(p=0.04, inplace=False)
+    (lin3): Linear(in_features=128, out_features=32, bias=True)
+    (lin_act3): SiLU()
+    (dropout3): Dropout(p=0.02, inplace=False)
+    (flatten): Flatten(start_dim=1, end_dim=-1)
+    (fin_linear): Linear(in_features=160, out_features=1, bias=True)
+  )
+)

@@ -1,0 +1,12 @@
+CustomLSTM(
+  (main_modules): ModuleDict(
+    (lstm_cell0): LSTMCell(72, 16)
+    (lstm_cell1): LSTMCell(16, 256)
+    (lstm_cell2): LSTMCell(256, 512)
+    (lstm_cell3): LSTMCell(512, 16)
+  )
+  (output_modules): Sequential(
+    (fin_flatten): Flatten(start_dim=1, end_dim=-1)
+    (fin_lin): Linear(in_features=80, out_features=1, bias=True)
+  )
+)

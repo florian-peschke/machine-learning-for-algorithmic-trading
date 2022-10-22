@@ -1,0 +1,10 @@
+ann_type: lstm
+do_regularization: false
+hidden_size_lstm_cell0: 16
+hidden_size_lstm_cell1: 256
+hidden_size_lstm_cell2: 512
+hidden_size_lstm_cell3: 16
+loss_name: HuberLoss
+number_of_hidden_stacks: 4
+optimizer_name: Adagrad
+use_default_optimizer_args: true

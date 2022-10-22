@@ -1,0 +1,20 @@
+CustomLSTM(
+  (main_modules): ModuleDict(
+    (lstm_cell0): LSTMCell(72, 1024)
+    (dropout0): Dropout(p=0.04, inplace=False)
+    (lstm_cell1): LSTMCell(1024, 1024)
+    (dropout1): Dropout(p=0.02, inplace=False)
+    (lstm_cell2): LSTMCell(1024, 32)
+    (dropout2): Dropout(p=0.08, inplace=False)
+    (lstm_cell3): LSTMCell(32, 128)
+    (dropout3): Dropout(p=0.08, inplace=False)
+    (lstm_cell4): LSTMCell(128, 256)
+    (dropout4): Dropout(p=0.04, inplace=False)
+    (lstm_cell5): LSTMCell(256, 1024)
+    (dropout5): Dropout(p=0.64, inplace=False)
+  )
+  (output_modules): Sequential(
+    (fin_flatten): Flatten(start_dim=1, end_dim=-1)
+    (fin_lin): Linear(in_features=5120, out_features=1, bias=True)
+  )
+)

@@ -1,0 +1,55 @@
+            <iframe src='about:blank' style='border:none !important;' width='600' height='400' srcdoc="&lt;html lang=&quot;en&quot;>
+   &lt;head>
+       &lt;style> html, body { margin: 0; overflow: hidden; } &lt;/style>
+       &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;library&quot; src=&quot;https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.4.0/js-package/distr/lets-plot.min.js&quot;>&lt;/script>
+   &lt;/head>
+   &lt;body>
+          &lt;div id=&quot;oOePat&quot;>&lt;/div>
+   &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;plot&quot;>
+       var plotSpec={
+&quot;data&quot;:{
+},
+&quot;mapping&quot;:{
+&quot;x&quot;:&quot;value&quot;,
+&quot;y&quot;:&quot;variable&quot;
+},
+&quot;data_meta&quot;:{
+},
+&quot;ggtitle&quot;:{
+&quot;text&quot;:&quot;Variance of Jacobians&quot;,
+&quot;subtitle&quot;:&quot;(2017M01, 2020M01]&quot;
+},
+&quot;caption&quot;:{
+&quot;text&quot;:&quot;Testing&quot;
+},
+&quot;theme&quot;:{
+&quot;name&quot;:&quot;grey&quot;
+},
+&quot;kind&quot;:&quot;plot&quot;,
+&quot;scales&quot;:[{
+&quot;name&quot;:&quot;&quot;,
+&quot;aesthetic&quot;:&quot;x&quot;
+},{
+&quot;name&quot;:&quot;&quot;,
+&quot;aesthetic&quot;:&quot;y&quot;
+}],
+&quot;layers&quot;:[{
+&quot;geom&quot;:&quot;bar&quot;,
+&quot;stat&quot;:&quot;identity&quot;,
+&quot;mapping&quot;:{
+},
+&quot;data_meta&quot;:{
+},
+&quot;orientation&quot;:&quot;y&quot;,
+&quot;data&quot;:{
+&quot;variable&quot;:[&quot;CORREL&quot;,&quot;diff(ROCR)&quot;,&quot;diff(ROC)&quot;,&quot;diff(BETA)&quot;,&quot;diff(log(adjClose))&quot;,&quot;diff(open)&quot;,&quot;diff(LINEARREG_INTERCEPT)&quot;,&quot;diff(log(vwap))&quot;,&quot;pct_change(high)&quot;,&quot;diff(MINUS_DI)&quot;,&quot;diff(log(low))&quot;,&quot;diff(MOM)&quot;,&quot;diff(CCI)&quot;,&quot;pct_change(adjClose)&quot;,&quot;diff(diff(ADX))&quot;,&quot;diff(log(close))&quot;,&quot;diff(OBV)&quot;,&quot;STDDEV&quot;,&quot;diff(ADOSC)&quot;,&quot;diff(log(volume))&quot;,&quot;diff(log(open))&quot;,&quot;pct_change(low)&quot;,&quot;diff(CMO)&quot;,&quot;diff(ULTOSC)&quot;,&quot;diff(ROCP)&quot;,&quot;diff(PLUS_DI)&quot;,&quot;diff(diff(diff(TRIX)))&quot;,&quot;VAR&quot;,&quot;diff(volume)&quot;,&quot;pct_change(volume)&quot;,&quot;pct_change(close)&quot;,&quot;diff(vwap)&quot;,&quot;diff(PLUS_DM)&quot;,&quot;diff(AD)&quot;,&quot;diff(HT_DCPERIOD)&quot;,&quot;diff(TRANGE)&quot;,&quot;pct_change(vwap)&quot;,&quot;diff(MFI)&quot;,&quot;diff(AVGPRICE)&quot;,&quot;diff(MINUS_DM)&quot;,&quot;diff(diff(HT_TRENDLINE))&quot;,&quot;diff(HT_DCPHASE)&quot;,&quot;diff(WCLPRICE)&quot;,&quot;diff(high)&quot;,&quot;diff(ATR)&quot;,&quot;diff(diff(diff(T3)))&quot;,&quot;diff(WILLR)&quot;,&quot;diff(adjClose)&quot;,&quot;diff(RSI)&quot;,&quot;diff(diff(ADXR))&quot;],
+&quot;value&quot;:[3.649440460628418E-17,4.6234535728434885E-17,5.3131941561538904E-17,7.967747105501095E-17,8.497403424864109E-17,9.620002659639835E-17,9.75345468571322E-17,1.0062985009186073E-16,1.0072475086917771E-16,1.0274632072925321E-16,1.1345836921881902E-16,1.1571003425552717E-16,1.2355436667537984E-16,1.5721410604050605E-16,1.6998067926575147E-16,1.8519406597781855E-16,2.0350785797463238E-16,2.0428086818323054E-16,2.1530312263739354E-16,2.1751870936450457E-16,2.7503691839917126E-16,2.887693077076336E-16,2.923647772802709E-16,2.926677503775919E-16,2.9469943831092016E-16,3.0534910414740967E-16,3.1757364246086134E-16,3.659584408090727E-16,3.9184866458639046E-16,4.0050131790082995E-16,4.126229152414106E-16,4.433764316249481E-16,4.558353863065524E-16,4.848272594482582E-16,5.152145664310062E-16,8.018546980070385E-16,8.286615967217426E-16,8.298730655945531E-16,8.592397508154189E-16,8.66828795445903E-16,9.088021896581098E-16,9.577212010982426E-16,9.835298714846075E-16,1.0038535800210272E-15,1.2861374740888898E-15,1.4588637974182763E-15,1.544092252571004E-15,1.5818984035013972E-15,1.5895258293123038E-15,1.6773608166019698E-15]
+}
+}],
+&quot;computation_messages&quot;:[&quot;sampling_pick(n=50) was applied to [bar/identity stat] layer&quot;]
+};
+       var plotContainer = document.getElementById(&quot;oOePat&quot;);
+       LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
+   &lt;/script>
+   &lt;/body>
+&lt;/html>"></iframe>    
