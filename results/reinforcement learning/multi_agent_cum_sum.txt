@@ -1,7 +1,0 @@
-\begin{tabular}{rrr}
-\hline
-   True Reward &   Realized Reward &   Optimal Reward \\
-\hline
-     0.0775415 &         -0.383738 &           3.8672 \\
-\hline
-\end{tabular}
