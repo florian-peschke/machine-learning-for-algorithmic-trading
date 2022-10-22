@@ -1,4 +1,4 @@
-# master thesis:
+# Master Thesis
 
 Machine Learning for Algorithmic Trading
 Practicability Study on Deep Supervised & Reinforcement Learning
